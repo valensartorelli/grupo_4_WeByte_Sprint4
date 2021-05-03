@@ -5,7 +5,7 @@ const productModel = jsonDB('products');
 
 let productController = {
     leerTodos: function() {
-        return productos
+        return product
     },
     index: (req, res) => {
         // leo todo el array de products en el controlador productController

@@ -12,6 +12,10 @@ const storage = multer.diskStorage({
 });
 const upload = multer({ storage });
 
+router.get('/carrito', (req, res) =>
+    res.render('productCart')
+);
+
 router.get('/', controladorProduct.index);
 
 router.get('/create', controladorProduct.create);
@@ -28,5 +32,7 @@ router.delete('/:id', controladorProduct.destroy);
 
 // Acción de creación (a donde se envía el formulario) (POST)
 router.post('/store', upload.single('image'), controladorProduct.store);
+
+
 
 module.exports = router;

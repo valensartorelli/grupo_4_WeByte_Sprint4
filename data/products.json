@@ -21,24 +21,13 @@
   "image": "detalle-producto1.jpg"
  },
  {
-  "id": "2",
-  "name": "Remera Algodon Roja",
   "categoria": "Hombre",
-  "price": 1645,
+  "name": "Remera Algodon Roja",
   "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
-  "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
-  "color": [
-   "Rojo",
-   "Negro",
-   "Blanco",
-   "Azul"
-  ],
-  "talle": [
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
+  "color": "Negro",
+  "talle": "M",
+  "price": "1680",
+  "id": "2",
   "image": "detalle-producto2.jpg"
  },
  {
