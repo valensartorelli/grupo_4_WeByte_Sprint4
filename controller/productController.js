@@ -3,7 +3,6 @@ const jsonDB = require('../model/jsonDatabase');
 // Maneja todos los métodos para PRODUCTO, que lo pasa como parámetro
 const productModel = jsonDB('products');
 
-// Leo los elementos del array del archivo data
 let productController = {
     leerTodos: function() {
         return productos

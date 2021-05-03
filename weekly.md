@@ -1,4 +1,5 @@
-El equipo se ha reunido una vez en la semana pero ha mantenido diariosintercambios por Slack para resolver asuntos del proyecto. 
-15/4 – Via online, entre todos, implementamos el modulo EJS. Renombramos todas las vistas actuales para que utilicen la extensión .ejs. Actualizamos el sitio con la implementación de los partials.
-17/4 – Nuevamente vía online, modificamos los router y los métodos de los controladores para que utilicen el método render().Modificamos la vista productos.ejs para que levante datos desde data.js
-24/4 – Agregamos el formularios de Alta y Edición. Duplicamos pantalla dedetalle de producto para vista Administrador   (incluyendo los botones Modificar y Eliminar)
+El equipo se ha reunido una vez en la semana pero ha mantenido diarios intercambios por Slack para resolver asuntos del proyecto. 
+Acordamos trabajar esta etapa en forma conjunta y online, ya que cada tarea requiere pasar por cada uno de los archivos (MVC) Analizamos los campos necesarios para guardar los datos necesario. Dividimos el sprint en tres pasos, segun dificultad y prioridad. 
+24/4 – Mediante reunion online, Creamos Json para Productos y Usuarios. Creamos carpeta model. Requerimos Json en lugar del Objeto literal (datosProductos.js). Creamos la vista createUser.ejs
+29/4 – Nuevamente vía online, Creamos y modificamos dentro de productRoutes las rutas Get requeridas en el sprint 4 y modificamos los métodos de los controladores para que utilicen model como reglas de negocio.
+1/8 – Creamos y modificamos dentro de productRoutes las rutas Post, Put y Delete requeridas en el sprint 4 y modificamos los métodos de los controladores para que utilicen model como reglas de negocio. Modificamos el formularios de Alta y Edición para que traigan los datos en forma dinamica. 
